@@ -72,7 +72,7 @@ counter()
 const motivationalEndPhrase = ["Your amazing", "Don't be on your comfort zone", "Give your all", "When will you get it ? ", "Mess with the best or die like the rest", "The music is the fuel of the soul", "Did you give your all today?"]
 
 const randomPhrase = () => {
-    return motivationalEndPhrase[Math.floor(Math.random() * words.length)]
+    return motivationalEndPhrase[Math.floor(Math.random() * 6)]
 }
 
 async function counter() {
